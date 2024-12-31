@@ -2,4 +2,6 @@
 
 `docker container ls`
 
+`docker -p -d 8080:8080 jenkins/jenkins:lts`
+
 `docker exec dc9c98 cat /var/jenkins_home/secrets/initialAdminPassword`
